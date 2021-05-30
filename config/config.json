@@ -1,0 +1,23 @@
+{
+  "train_data_path": "data/train.csv",
+  "test_data_path": "data/test.csv",
+  "output_path": "output/predictions.csv",
+  "model_weights_path": "model_weights/model-best.h5",
+  "model": "conv1D",
+  "max_sequence_len": 250,
+  "label_mapping": { "class_1": 0, "class_2": 1, "class_3": 2 },
+  "model_params": {
+    "input_size": 250,
+    "num_classes": 3,
+    "embedding_size": 50,
+    "dropout_p": 0.5,
+    "vocab_size": 38,
+    "batch_normalisation": true,
+    "conv_layers": [
+      [32, 3, -1],
+      [32, 3, -1],
+      [32, 3, -1]
+    ],
+    "dense_layers": [1024]
+  }
+}
