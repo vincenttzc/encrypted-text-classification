@@ -1,7 +1,9 @@
 # Predicting on encrypted text
 
 This project aims to train a deep learning text classification model that can predict on encrypted text. Here is a sample of the data used:
+
 <img src="img/data_sample.jpg" width="500"/>
+
 The label column has been encoded to mask the actual meaning before this project is pushed to github.
 
 ## Table of contents
